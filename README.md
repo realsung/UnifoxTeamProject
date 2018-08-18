@@ -35,7 +35,7 @@ Live Chatting Service
 
   * PPT Announcement
 
-* 정다혜
+* 정다
  
   * Xml
 
