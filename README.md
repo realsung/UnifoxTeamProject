@@ -11,7 +11,7 @@
 
 ## 주제
 ```
-Live Chatting Service
+KakaoBot
 ```
 
 ## 역할분담
@@ -19,24 +19,14 @@ Live Chatting Service
 
   * PPT
 
-  * Production
-
 * 박성준
 
-  * Firebase Parsing
-
-  * Xml
-
-  * Java
+  * weather
 
 * 정규석
 
-  * Xml
+  * naver
 
-  * PPT Announcement
-
-* 정다
+* 정다혜
  
-  * Xml
-
-  * Design
+  * food
