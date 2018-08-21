@@ -39,7 +39,7 @@ function bob(year,month,day,replier){
   var nice=Utils.getWebText(url).replace(/ |\n|\t|\r/g, ""); //' ','\n','\t','\r'을 전부(g) 공백으로 바꿔주기
   var split1 = "<td><div>"+day+"<br>";  //split의 기준,단위
   nice=nice.split(split1)[1];  //nice에서 split1의 뒷부분을 가져옴
-  nice=nice.split("</div></td>")[0];  //nice에서 "</div></td>"의 앞부분을 가져옴
+  nice=nice.split("</div></td>")[0];  //nice에서 "</div></td>"의 앞부분을 가져옴 
   nice=nice.split("<br>").join('\n'); //<br>단위로 자르고  '\n'로 연결
 
   nice=nice.replace("[석식]","\n[석식]");//replace("바뀔문자,바꿀문자)
