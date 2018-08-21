@@ -202,7 +202,7 @@ var Util = { //www
             }).start();
         } catch (e) {
             send("Error on WWW function" + "\n" + e);
-        }
+        } 
         while (1) {
             if (isFinished) return ret;
         }
